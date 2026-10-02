@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Một lời chúc Trung Thu gửi đến những người bạn yêu thương.">
+  <title>Trung Thu — Trăng đoàn viên 🌕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="stars"></div>
+    <div class="moon">
+      <span class="crater c1"></span><span class="crater c2"></span>
+      <span class="crater c3"></span><span class="crater c4"></span>
+      <span class="crater c5"></span>
+    </div>
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+  </div>
+
+  <header class="nav">
+    <div class="logo">🌙 <span>Trung Thu</span></div>
+    <button class="music-btn" id="musicBtn" aria-label="Bật tắt nhạc">♫ <span>Nhạc</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="lantern lantern-left">🏮</div>
+      <div class="lantern lantern-right">🏮</div>
+
+      <div class="hero-content">
+        <p class="eyebrow">✨ ĐÊM TRĂNG ĐOÀN VIÊN ✨</p>
+        <h1>Trung Thu<br><span>Rực Rỡ</span></h1>
+        <p class="subtitle">
+          Một đêm trăng đẹp nhất là khi ta có người để cùng ngắm trăng,
+          cùng cười và cùng lưu giữ những kỷ niệm thật đẹp.
+        </p>
+
+        <div class="buttons">
+          <button class="primary" id="wishBtn">🎁 Nhận lời chúc</button>
+          <a class="secondary" href="#about">🌕 Khám phá</a>
+        </div>
+
+        <div class="scroll">CUỘN XUỐNG <span>↓</span></div>
+      </div>
+    </section>
+
+    <section class="wish-section" id="about">
+      <div class="section-heading">
+        <span>💌</span>
+        <p>LỜI CHÚC ĐÊM TRĂNG</p>
+        <h2>Gửi một chút yêu thương</h2>
+      </div>
+
+      <div class="wish-card" id="wishCard">
+        <div class="card-glow"></div>
+        <div class="rabbit">🐇</div>
+        <div class="wish-icon">🌕</div>
+        <p class="small-title">TRUNG THU AN LÀNH</p>
+        <h3 id="wishText">Chúc bạn một mùa Trung Thu thật ấm áp!</h3>
+        <p id="wishSub">
+          Mong ánh trăng đêm nay soi sáng những ước mơ,
+          và những người bạn thương luôn ở bên cạnh.
+        </p>
+        <button class="change-wish" id="changeWish">✨ Một lời chúc khác</button>
+      </div>
+    </section>
+
+    <section class="memories">
+      <div class="section-heading">
+        <span>🥮</span>
+        <p>HƯƠNG VỊ TRUNG THU</p>
+        <h2>Những điều làm nên đêm hội</h2>
+      </div>
+
+      <div class="cards">
+        <article class="feature">
+          <div class="feature-icon">🏮</div>
+          <h3>Đèn lồng</h3>
+          <p>Ánh đèn nhỏ thắp sáng cả một đêm trăng, mang theo bao ước nguyện tuổi thơ.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">🥮</div>
+          <h3>Bánh trung thu</h3>
+          <p>Tròn như vầng trăng, ngọt như tình thân — món quà không thể thiếu của mùa đoàn viên.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">🐇</div>
+          <h3>Thỏ Ngọc</h3>
+          <p>Chú thỏ trên cung trăng là biểu tượng đáng yêu gắn liền với những câu chuyện đêm rằm.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="lantern-small">🏮</div>
+      <p>🌕 Trăng tròn rồi...</p>
+      <h2>Chúc bạn và gia đình<br><span>một mùa Trung Thu hạnh phúc!</span></h2>
+      <p class="final-note">Bình an · Đoàn viên · Yêu thương · May mắn</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ for Mid-Autumn Festival</p>
+    <p>© 2026 • Trung Thu</p>
+  </footer>
+
+  <div class="toast" id="toast">✨ Lời chúc đã được gửi đến bạn!</div>
+  <canvas id="fireworks"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
